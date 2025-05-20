@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #eee;
+  font-family: sans-serif;
+}
+
+.card {
+  background: rgb(35, 204, 196);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+img {
+  width: 90px;
+  height: 90px;
+  border-radius: 60%;
+}
+.card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.card a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #c50e0e;
+  font-weight: bold;
+  display: inline-block;
+}
